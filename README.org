@@ -1,0 +1,8 @@
+* required.l
+** Introduction
+Takes a list of external programs and throws an error if any of the
+programs are missing.
+** Usage
+#+BEGIN_SRC lisp
+  (required curl mpv notify-send)
+#+END_SRC
